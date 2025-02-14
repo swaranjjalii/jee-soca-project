@@ -25,3 +25,13 @@ The **JEE SOCA Skill Assessment System** is an AI-powered tool designed to help 
    ```bash
    git clone https://github.com/yourusername/jee-soca-assessment.git
    cd jee-soca-assessment
+
+Install Dependencies
+pip install -r requirements.txt
+Set up the Database
+
+
+python setup_db.py  # (Creates required tables)
+Run the Application
+
+streamlit run jee_soca_assessment.py
